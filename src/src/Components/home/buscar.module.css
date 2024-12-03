@@ -1,0 +1,28 @@
+.caixa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30vw;
+}
+
+.h2{
+    font-size: 3vw;
+    color: #FFF;
+}
+
+.input{
+    width: 35vw;
+    height: 2.5vw;
+    border-radius: 1vw;
+}
+
+.img{
+    display: flex;
+    z-index: 1;
+    position: absolute;
+    margin-left: 33vw;
+    margin-top: 0.4vw;
+    width: 2vw;
+}
+

@@ -1,0 +1,186 @@
+.caixa{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-right: 20vw;
+    margin-top: -6vw;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vw;
+    margin-bottom: -3vw;
+    margin-top: -1.5vw;
+}
+
+.h3{
+    font-size: 2.8vw;
+    color:#FFF;
+}
+
+.image{
+    width: 6vw;
+    height: 6vw;
+}
+
+/* CARDS */
+
+/* kurby */
+.card{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2vw;
+    height:30vw ;
+    background: rgb(0,191,234);
+    background: linear-gradient(180deg, rgba(0,191,234,1) 0%, rgba(59,0,132,1) 100%);
+    width: 24vw;
+    position: absolute;
+    margin-right: 4vw;
+    z-index: 5;
+    transition: transform 1s;
+    box-shadow: rgba(0, 0, 0, 0.462) 15px 54px 55px, rgba(0, 0, 0, 0.323) -15px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.kirby{
+    width: 25vw;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    z-index: 8;
+    background: rgb(115,0,228);
+    background: linear-gradient(180deg, rgb(0, 31, 234) 0%, rgb(179, 0, 255) 100%);
+    transition: 1s;
+}
+
+/* Mario */
+.card2{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    border-radius: 2vw;
+    height:30vw ;
+    background: rgb(255,0,64);
+    background: linear-gradient(180deg, rgba(255,0,64,1) 0%, rgba(94,0,23,1) 100%);
+    width: 24vw;
+    margin-right: 38vw;
+    transform: rotate(-5deg);
+    margin-top: 5vw;
+    z-index: 3;
+    transition: transform 1s;
+    box-shadow: rgba(0, 0, 0, 0.186) 0px 54px 55px, rgba(0, 0, 0, 0.323) -15px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.mario{
+    width: 18vw;
+    margin-top: 1vw;
+}
+
+.card2:hover{
+    transform: scale(1.1);
+    z-index: 8;
+    background: rgb(115,0,228);
+    background: linear-gradient(180deg, rgb(255, 0, 0) 0%, rgb(255, 187, 0) 100%);
+    transition: 1s;
+}
+
+/* pokemon */
+.card3{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    border-radius: 2vw;
+    height:30vw ;
+    background: rgb(92,0,250);
+    background: linear-gradient(180deg, rgb(114, 32, 255) 0%, rgb(0, 3, 187) 100%);
+    width: 24vw;
+    margin-left: 33vw;
+    transform: rotate(5deg);
+    margin-top: 5vw;
+    z-index: 3;
+    transition: transform 1s;
+    box-shadow: rgba(0, 0, 0, 0.47) 15px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.poke{
+    width: 22vw;
+}
+
+.card3:hover{
+    transform: scale(1.1);
+    z-index: 8;
+    background: rgb(115,0,228);
+background: linear-gradient(180deg, rgba(115,0,228,1) 0%, rgba(20,0,50,1) 100%);
+    transition: 1s;
+}
+
+/* vava */
+.card4{
+    align-items: center;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    border-radius: 2vw;
+    height:30vw ;
+    background: rgb(255,136,0);
+    background: linear-gradient(180deg, rgba(255,136,0,1) 0%, rgba(255,246,0,1) 100%);
+    width: 24vw;
+    margin-left: 70vw;
+    transform: rotate(6deg);
+    margin-top: 10vw;
+    z-index: 2;
+    transition: transform 1s;
+}
+
+.vava{
+    width: 19.5vw;
+}
+
+.card4:hover{
+    transform: scale(1.1);
+    z-index: 8;
+    background: rgb(115,0,228);
+    background: linear-gradient(180deg, rgb(255, 111, 0) 0%, rgb(157, 255, 0) 100%);
+    transition: 1s;
+}
+
+/* fort */
+.card1{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    border-radius: 2vw;
+    height:30vw ;
+    background: rgb(255,0,251);
+    background: linear-gradient(180deg, rgba(255,0,251,1) 0%, rgba(99,0,89,1) 100%);
+    width: 24vw;
+    margin-left: -70vw;
+    transform: rotate(-6deg);
+    margin-top: 10vw;
+    z-index: 2;
+    transition: transform 1s;
+    
+}
+
+.fot{
+    margin-top: -1.5vw;
+    width: 16.5vw;
+}
+
+.card1:hover{
+    transform: scale(1.1);
+    z-index: 8;
+    background: rgb(115,0,228);
+    background: linear-gradient(180deg, rgb(255, 48, 165) 0%, rgb(21, 0, 99) 100%);
+    transition: 1s;
+}

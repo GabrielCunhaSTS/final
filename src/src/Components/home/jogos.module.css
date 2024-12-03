@@ -1,0 +1,82 @@
+.caixa{
+display:flex ;
+justify-content: center;
+flex-direction: row;
+gap: 5vw;
+}
+
+
+.card{
+    display: flex;
+    width: 20.9vw;
+    height: 26vw;
+    background-color: #1900A7;
+    flex-direction: column;
+    align-items: center;  
+    border: 25px solid black;
+    border-radius: 3.2vw;
+    transition: transform 1s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    box-shadow: rgba(213, 213, 213, 0.35) 0px 5px 15px;
+}
+
+
+
+.image img{
+    opacity: 2%;
+}
+.nameand{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    gap: 1vw;
+    margin-top: -4.5vw;
+    margin-left: 1vw;
+}
+
+.nameand h3{
+    font-size: 1.4vw;
+    color: #FFF;
+}
+
+.ul{
+    list-style: none;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    font-size: 0.5vw;
+    margin-left: -2.5vw;
+}
+
+.linha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+    width: 100%;
+    text-align: center;
+}
+
+.image{
+    width: 21vw;
+}
+
+.estrela{
+    width: 8vw;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    margin-top: 5vw;
+}

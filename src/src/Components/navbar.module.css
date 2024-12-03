@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+*{
+    font-family: "Lexend Deca", sans-serif;
+}
+
+body {
+    background-image: url(../Components/img/5593cb9d-4bdb-461a-9c4e-7f0ede0e4222\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-position: center;
+}
+
+.Nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #0C0050 ;
+    height: 6vw;
+    color: #fff;
+    justify-content: space-around;
+}
+
+.lista{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style: none;
+    gap: 5vw;
+    font-size: 1.5vw;
+    font-weight: 600;
+    color: #fff;
+}
+
+li:hover{
+    color: darkcyan;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.dindin{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 10vw;
+    height: 2.5vw;
+    border-radius: 5vw;
+}
+
+.h6{
+    font-size: 1.2vw;
+}
+
+.perfil{
+    width: 4vw;
+}
+
+.mais , .coin {
+    width: 1.8vw;
+    height: 1.8vw;
+}
+
+.logo{
+    width: 7.5vw;
+    transition: transform 0.5s;
+}
+
+.logo:hover{
+    animation: tremer 0.2s;
+    animation-iteration-count: 4;
+    transform: scale(1.2);
+}
+
+
+@keyframes tremer{
+    0% { margin-top: 0; }
+    25% { margin-top: 5px; }
+    50% { margin-top: 0; }
+    75% { margin-top: -5px; }
+    100% { margin-top: 0; }
+}
